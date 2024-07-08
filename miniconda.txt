@@ -1,0 +1,30 @@
+初始化 conda 环境
+conda init
+
+创建虚拟环境
+conda create --name python3.12.3 python=3.12.3
+conda create --name python3.10.14 python=3.10.14
+
+激活虚拟环境
+conda activate python3.12.3
+conda activate python3.10.14
+
+安装包
+conda install numpy pandas
+
+列出环境
+conda env list
+
+退出虚拟环境
+conda deactivate
+
+删除虚拟环境
+conda remove --name python312 --all
+
+更新Conda
+conda update conda
+
+使用Jupyter Notebook
+如果你安装了Anaconda，你可以直接使用Jupyter Notebook：
+
+jupyter notebook 
